@@ -15,6 +15,10 @@ spring:
     host: yun
   rabbitmq:
     host: yun
+    port: 5672
+    username: squ
+    password: squ
+    virtual-host: /squ
 jwt:
   config:
     # 加盐
